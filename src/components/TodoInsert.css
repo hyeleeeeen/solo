@@ -1,0 +1,44 @@
+.background {
+  overflow: hidden;
+  top: 0;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 980;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00000097;
+  opacity: 0.8;
+}
+
+form {
+  background: white;
+  margin-left: 38%;
+  z-index: 990;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px 1px pink;
+  position: relative;
+}
+
+form > input {
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 0.5rem;
+}
+
+form > button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: pink;
+}

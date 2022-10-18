@@ -1,0 +1,13 @@
+/* 화면의 전체적인 뼈대*/
+.Template {
+  text-align: center;
+  background-color: rgb(244, 234, 214);
+}
+
+.text {
+  font-size: 20px;
+}
+
+h1.text {
+  font-size: 50px;
+}

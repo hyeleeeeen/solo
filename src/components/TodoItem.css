@@ -1,0 +1,20 @@
+/* 투두리스트 각각의 목록*/
+
+.TodoItem {
+  border: 1px solid white;
+  width: 500px;
+  height: 100px;
+  margin: 20px auto 15px auto;
+  border-radius: 20px;
+  font-size: 30px;
+  background-color: white;
+}
+
+.content.checked .text {
+  text-decoration: line-through;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.content {
+  margin-top: 20px;
+}
