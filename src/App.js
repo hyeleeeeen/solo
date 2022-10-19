@@ -41,7 +41,7 @@ function App() {
   };
 
   return (
-    <Template todoLength={todos.length}>
+    <Template>
       <TodoList todos={todos} />
       <div className="add-todo-button" onClick={onInsertToggle}>
         <MdAddCircle />

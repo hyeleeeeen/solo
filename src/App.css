@@ -4,4 +4,9 @@
   font-size: 3rem;
   position: relative;
   z-index: 100;
+  display: inline;
+}
+
+.add-todo-button:hover {
+  color: rgba(0, 0, 0, 0.57);
 }

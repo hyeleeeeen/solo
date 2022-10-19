@@ -8,12 +8,12 @@
   border-radius: 20px;
   font-size: 30px;
   background-color: white;
+  cursor: pointer;
 }
 
 .content.checked .text {
   text-decoration: line-through;
   opacity: 0.6;
-  cursor: pointer;
 }
 .content {
   margin-top: 20px;
